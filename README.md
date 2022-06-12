@@ -1,24 +1,10 @@
-# README
+# Social media
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is simple Rails application that I created to learn the basics of Hotwire. It uses `docker` to run the needed data sources such as `postgresql` and `redis`
 
-Things you may want to cover:
+## How to run
+NOTE: You'll need to setup docker and docker-compose to start.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Clone the repository.
+2. Run `docker compose up -d --build`, this will run all images.
+3. Visit `localhost:3000`
